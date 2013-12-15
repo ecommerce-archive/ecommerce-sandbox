@@ -1,0 +1,5 @@
+style:
+    form_type: 'text'
+    form_options:
+        label: 'Style'
+        required: false

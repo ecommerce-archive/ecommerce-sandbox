@@ -1,0 +1,16 @@
+car:
+    name: 'Car'
+    properties2:
+        - 'name'
+        - 'size'
+        - 'length'
+        - 'description'
+        - 'long_description'
+    properties:
+        ecommerce.property_group.general:
+            - 'name'
+            - 'size'
+            - 'length'
+        ecommerce.property_group.descriptions:
+            - 'description'
+            - 'long_description'

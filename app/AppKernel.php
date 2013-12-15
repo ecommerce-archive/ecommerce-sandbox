@@ -15,7 +15,14 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
+            new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new FOS\ElasticaBundle\FOSElasticaBundle(),
+            new Ecommerce\Bundle\CatalogBundle\EcommerceCatalogBundle(),
+            new Ecommerce\Bundle\CatalogAdminBundle\EcommerceCatalogAdminBundle(),
+            new Ecommerce\Bundle\ElasticsearchBundle\EcommerceElasticsearchBundle(),
+            new Ecommerce\Bundle\DemoShopReservationBundle\EcommerceDemoShopReservationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

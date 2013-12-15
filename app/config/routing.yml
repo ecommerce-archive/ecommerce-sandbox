@@ -1,0 +1,21 @@
+ecommerce_catalog_admin:
+    resource: "@EcommerceCatalogAdminBundle/Resources/config/routing.xml"
+    prefix:   /
+
+ecommerce_demo_shop_reservation:
+    resource: "@EcommerceDemoShopReservationBundle/Resources/config/routing.xml"
+    prefix:   /
+
+ecommerce_catalog_product:
+    resource: "@EcommerceCatalogBundle/Resources/config/routing/product.xml"
+    prefix:   /product
+
+
+
+login_check:
+    path:    /login_check
+    options: { i18n: false }
+
+logout:
+    path:    /logout
+    options: { i18n: false }

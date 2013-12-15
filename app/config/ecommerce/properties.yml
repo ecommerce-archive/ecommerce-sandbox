@@ -1,0 +1,29 @@
+name:
+    form_type: 'text'
+    form_options:
+        label: 'Name'
+        required: false
+size:
+    form_type: 'text'
+    form_options:
+        required: false
+length:
+    form_type: 'choice'
+    form_options:
+        choices:
+            dress: 'Dress'
+            zak: 'Zaking'
+        multiple: false
+        expanded: false
+        required: false
+description:
+    form_type: 'translatable_field'
+    form_options:
+        label: 'Description'
+        required: false
+long_description:
+    form_type: 'translatable_field'
+    form_options:
+        field_type: 'textarea'
+        label: 'Looong description'
+        required: false
