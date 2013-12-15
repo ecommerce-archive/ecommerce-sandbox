@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f062c74c2ab6d0162c4e8af4f51b9fde",
+    "hash": "f4f29cf41f770f49a1e1cb4638b3bf2a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -765,18 +765,64 @@
             "time": "2013-12-04 16:07:15"
         },
         {
+            "name": "ecommerce/catalog-admin-bundle",
+            "version": "dev-master",
+            "target-dir": "Ecommerce/Bundle/CatalogAdminBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ecommerce/EcommerceCatalogAdminBundle.git",
+                "reference": "cf01d404156ccf2328c563694a9a12f9605231e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ecommerce/EcommerceCatalogAdminBundle/zipball/cf01d404156ccf2328c563694a9a12f9605231e2",
+                "reference": "cf01d404156ccf2328c563694a9a12f9605231e2",
+                "shasum": ""
+            },
+            "require": {
+                "ecommerce/catalog-bundle": "dev-master",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Ecommerce\\Bundle\\CatalogAdminBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Wahala",
+                    "email": "philipp.wahala@gmail.com"
+                }
+            ],
+            "description": "Ecommerce Catalog Admin Bundle for Symfony",
+            "keywords": [
+                "admin",
+                "catalog",
+                "ecommerce",
+                "product",
+                "shop"
+            ],
+            "time": "2013-12-15 09:35:24"
+        },
+        {
             "name": "ecommerce/catalog-bundle",
             "version": "dev-master",
             "target-dir": "Ecommerce/Bundle/CatalogBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecommerce/EcommerceCatalogBundle.git",
-                "reference": "3af03c89210f4f3a6f6e4d2fc2224d17375660f2"
+                "reference": "359d160db90da213138e346cd3e1d75c91942850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecommerce/EcommerceCatalogBundle/zipball/3af03c89210f4f3a6f6e4d2fc2224d17375660f2",
-                "reference": "3af03c89210f4f3a6f6e4d2fc2224d17375660f2",
+                "url": "https://api.github.com/repos/ecommerce/EcommerceCatalogBundle/zipball/359d160db90da213138e346cd3e1d75c91942850",
+                "reference": "359d160db90da213138e346cd3e1d75c91942850",
                 "shasum": ""
             },
             "require": {
@@ -815,7 +861,7 @@
                 "product",
                 "shop"
             ],
-            "time": "2013-12-08 06:57:33"
+            "time": "2013-12-15 09:24:52"
         },
         {
             "name": "ecommerce/elasticsearch-bundle",
@@ -2247,6 +2293,7 @@
         "doctrine/doctrine-bundle": 20,
         "friendsofsymfony/elastica-bundle": 20,
         "ecommerce/catalog-bundle": 20,
+        "ecommerce/catalog-admin-bundle": 20,
         "ecommerce/elasticsearch-bundle": 20,
         "liip/doctrine-cache-bundle": 20
     },

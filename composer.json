@@ -21,6 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/elastica-bundle": "3.0.*@dev",
         "ecommerce/catalog-bundle": "dev-master",
+        "ecommerce/catalog-admin-bundle": "dev-master",
         "ecommerce/elasticsearch-bundle": "dev-master",
         "leafo/lessphp": "0.4.0",
         "liip/doctrine-cache-bundle": "dev-master"
