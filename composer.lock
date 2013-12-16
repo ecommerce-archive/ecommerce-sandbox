@@ -817,12 +817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecommerce/EcommerceCatalogBundle.git",
-                "reference": "359d160db90da213138e346cd3e1d75c91942850"
+                "reference": "5f70b281a0787abc7b446eec2c1ec94e05ad1588"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecommerce/EcommerceCatalogBundle/zipball/359d160db90da213138e346cd3e1d75c91942850",
-                "reference": "359d160db90da213138e346cd3e1d75c91942850",
+                "url": "https://api.github.com/repos/ecommerce/EcommerceCatalogBundle/zipball/5f70b281a0787abc7b446eec2c1ec94e05ad1588",
+                "reference": "5f70b281a0787abc7b446eec2c1ec94e05ad1588",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +861,7 @@
                 "product",
                 "shop"
             ],
-            "time": "2013-12-15 09:24:52"
+            "time": "2013-12-15 10:10:52"
         },
         {
             "name": "ecommerce/elasticsearch-bundle",
@@ -870,12 +870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecommerce/EcommerceElasticsearchBundle.git",
-                "reference": "3686701fdd54e59cee8b50fbe4c71e7c6b97b286"
+                "reference": "ab9d750f7f0d2c44cdbe3255c31852bf4db4540a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecommerce/EcommerceElasticsearchBundle/zipball/3686701fdd54e59cee8b50fbe4c71e7c6b97b286",
-                "reference": "3686701fdd54e59cee8b50fbe4c71e7c6b97b286",
+                "url": "https://api.github.com/repos/ecommerce/EcommerceElasticsearchBundle/zipball/ab9d750f7f0d2c44cdbe3255c31852bf4db4540a",
+                "reference": "ab9d750f7f0d2c44cdbe3255c31852bf4db4540a",
                 "shasum": ""
             },
             "require": {
@@ -913,7 +913,7 @@
                 "product",
                 "shop"
             ],
-            "time": "2013-12-09 00:40:38"
+            "time": "2013-12-15 10:10:30"
         },
         {
             "name": "friendsofsymfony/elastica-bundle",

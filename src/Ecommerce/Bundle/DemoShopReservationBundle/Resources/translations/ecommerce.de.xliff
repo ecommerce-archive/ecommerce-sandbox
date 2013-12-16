@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>ecommerce.admin.group.car</source>
+                <target>Auto</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>ecommerce.admin.group.rental</source>
+                <target>Verleih</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

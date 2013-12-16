@@ -1,10 +1,18 @@
-ecommerce_catalog_admin:
-    resource: "@EcommerceCatalogAdminBundle/Resources/config/routing.xml"
-    prefix:   /
+demo_overview:
+    path: /
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: '::demo.html.twig'
 
 ecommerce_demo_shop_reservation:
     resource: "@EcommerceDemoShopReservationBundle/Resources/config/routing.xml"
     prefix:   /
+
+
+ecommerce_catalog_admin:
+    resource: "@EcommerceCatalogAdminBundle/Resources/config/routing.xml"
+    prefix:   /
+
 
 ecommerce_catalog_product:
     resource: "@EcommerceCatalogBundle/Resources/config/routing/product.xml"
