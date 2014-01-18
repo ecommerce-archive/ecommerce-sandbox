@@ -88,7 +88,7 @@ liip_doctrine_cache:
 
 fos_elastica:
     clients:
-        default: { host: localhost, port: 9204 }
+        default: { host: %elasticsearch_host%, port: %elasticsearch_port% }
 
 
 ecommerce_catalog:
